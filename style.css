@@ -1,0 +1,66 @@
+/* style.css */
+
+/* Estilo para o fundo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cf2eac; /* Fundo rosa */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa 100% da altura da viewport */
+}
+
+/* Estilo para o container do formulário */
+.form-container {
+    background-color: #ffffff; /* Fundo branco para o formulário */
+    border-radius: 8px;
+    padding: 20px; /* Ajustado para um padding mais compacto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para os labels */
+label {
+    display: block;
+    margin-bottom: 4px; /* Menos espaço abaixo dos labels */
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo para os campos de entrada */
+input {
+    width: 100%; /* Faz o input ocupar toda a largura disponível */
+    padding: 10px; /* Ajustado para mais conforto */
+    margin-bottom: 12px; /* Menos espaço abaixo dos campos */
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilo para o botão */
+button {
+    background-color: #000000; /* Preto para o botão */
+    color: #ffffff;
+    border: none;
+    padding: 10px; /* Ajustado para mais conforto */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #4b0082; /* Roxo mais escuro para hover */
+}
+
+button:active {
+    background-color: #3a0066; /* Roxo ainda mais escuro para active */
+}
